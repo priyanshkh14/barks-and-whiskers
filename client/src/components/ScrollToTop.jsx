@@ -26,7 +26,7 @@ export default function ScrollToTop() {
   className="fixed bottom-6 right-6 z-50 bg-red-600 hover:bg-red-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 text-xl"
   aria-label="Scroll to top"
 >
-  🢁
+  ↑
 </button>
     )
   );
