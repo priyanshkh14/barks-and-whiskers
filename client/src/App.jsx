@@ -11,6 +11,9 @@ import CreateRehome from './pages/CreateRehome';
 import UpdateRehome from './pages/UpdateRehome';
 import Rehome from './pages/Rehome';
 import Search from './pages/Search';
+import Footer from './components/Footer';
+import CallToActionsSection from './components/CallToActionsSection';
+import BlogDetails from './pages/BlogDetails';
 
 export default function App() {
   return (
@@ -19,6 +22,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/blogs/:id" element={<BlogDetails />} />
       <Route path="/sign-in" element={<SignIn />} />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/about" element={<About />} />
@@ -30,5 +34,7 @@ export default function App() {
         <Route path='/update-rehome/:rehomeId' element={<UpdateRehome />} />
       </Route> 
     </Routes>
+    <CallToActionsSection />
+    <Footer />
   </BrowserRouter>
 )}
