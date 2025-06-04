@@ -2,6 +2,8 @@
 
 **Barks & Whiskers** is a full-stack MERN web app for pet adoption and rehoming. Users can list pets for adoption, browse available pets, and contact pet owners securely.
 
+https://drive.google.com/file/d/1C5Iy_O8mr90nQhfAOuDDTJui4oTr4oF-/view?usp=drive_link
+
 ## Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS, Redux Toolkit  
